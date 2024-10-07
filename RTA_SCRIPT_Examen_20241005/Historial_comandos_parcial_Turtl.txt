@@ -1,0 +1,396 @@
+ls
+man ls
+pwd
+cd repogit/
+git clone https://github.com/TOKYYO9/repo-turtl.git
+ls
+cd repo-turtl/
+ls
+history > historial.txt
+cat historial.txt
+git status
+git add .
+git status
+git commit -m "Mi primer commit"
+git config --global user.email "itzmoskid@gmail.com"
+git config --global user.name "TOKYYO9"
+git commit -m "Mi primer commit"
+git push
+git status
+exit
+pwd
+echo $HOME
+ls
+clear
+ls
+ls -l
+ls -la
+clear
+ssh-keygen -t ed25519
+ls -la
+cd .ssh
+ls
+ls -l
+cd ..
+cd .ssh
+ls -l
+cat id_ed25519.pub
+cd ..
+ls -l
+cd repogit
+ls -l
+git clone git@github.com:TOKYYO9/repo-turtl.git
+ls -l
+cd repo-turtl
+ls -l
+echo "hola"
+echo "hola" > hola.txt
+ls -l
+cat hola.txt
+git status
+git add .
+git status
+git commit -m "Agregue un archivo txt"
+git statis
+git status
+git push
+git status
+git config --global user.email "itzmoskid@gmail.com"
+git config --global user.name "TOKYYO9"
+git push
+lscpu
+cd repogit
+cd TP_AySO/
+git status
+cat README.md 
+ls
+ls -o
+ls -la
+cat << FIN >> README.md
+Usuario: Juan Ignacio Turtl
+Division: 115
+Turno: Mañana
+FIN
+
+cat README.md 
+git status
+git add .
+git commit -m "ADD: Añadiendo informacion de alumno, division y turno al archivo README"
+history
+history -a $HOME/.bash_history
+echo "$(history -a $HOME/.bash_history)" > Historial_comandos_Juan_Ignacio_Turtl.txt
+echo "$(history -a $HOME/.bash_history)" > Historial_comandos_Juan_Ignacio_Turtl.txt
+ls
+cat Historial_comandos_Juan_Ignacio_Turtl.txt 
+history
+echo "$(history $HOME/.bash_history)" > Historial_comandos_Juan_Ignacio_Turtl.txt
+ls
+cat Historial_comandos_Juan_Ignacio_Turtl.txt 
+echo "history $HOME/.bash_history" > Historial_comandos_Juan_Ignacio_Turtl.txt
+cat Historial_comandos_Juan_Ignacio_Turtl.txt 
+echo "$history" > Historial_comandos_Juan_Ignacio_Turtl.txt
+cat Historial_comandos_Juan_Ignacio_Turtl.txt 
+history
+cat $HOME/.bash_history
+
+cat $HOME/.bash_history
+clear
+ls
+cat Historial_comandos_Juan_Ignacio_Turtl.txt 
+history
+clear
+cd ..
+history
+clear
+cd ..
+history
+clear
+cd repogit
+ls
+cd TP_AySO/
+clear
+cp ~/.bash_history ./Historial_comandos_Juan_Ignacio_Turtl.txt
+ls
+cat Historial_comandos_Juan_Ignacio_Turtl.txt 
+git statis
+git status
+git add .
+git commit -m "ADD: Añadiendo historial de comandos"
+git push
+clear
+list
+ls
+cd repogit
+git clone git@github.com:TOKYYO9/TP_AySO.git
+cd TP_AySO
+ls -l
+cat /etc/os-release 
+man grep
+grep -i Home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > usuario:vagrant.txt
+ls
+cat usuario\:vagrant.txt 
+ls
+rm usuario\:vagrant.txt 
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+cat datos_usuario.txt 
+git status
+git add .
+git commit -m "ADD: Agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+cat head /proc/cpuinfo
+head /proc/cpuinfo | grep "model name"
+echo "Model name=$(head /proc/cpuinfo | grep "model name")" >> datos_usuario.txt
+cat datos_usuario.txt 
+git status
+git add .
+
+git status
+grep -v nologin /etc/passwd
+grep -v nologin /etc/passwd | sort -t":" -k7
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k7)" > lista_ordenada.txt
+ls
+cat lista_ordenada.txt 
+git status
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+git status
+tcpdump
+cat tcpdump
+man apropos
+apropos "dump traffic"
+echo apropos "dump traffic" >> comando_dump_net
+ls
+cat comando_dump_net 
+apropos "dump traffic"
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el trafico de red"
+cat << FIN >> README.md
+ls
+vagrant ssh
+
+cd repogit
+git clone git@github.com:TOKYYO9/TP.git
+cd TP
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git add .
+git status
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+head /proc/cpuinfo | grep "model name"
+echo "Model name=$(head /proc/cpuinfo | grep "model name")" >> datos_usuario.txt
+ls
+cat datos_usuario.txt 
+git status
+git add .
+git commit -m "feat: Añadiendo informacion de CPU"
+grep -v nologin /etc/passwd | sort -t":" -k10
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k10)" > lista_ordenada.txt
+git status
+git add .
+git commit -m "ADD: Lista de usuarios ordenada"
+git status
+apropos "dump traffic"
+echo "$(apropos "dump traffic")" > comando_dump_net
+ls
+cat comando_dump_net 
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el trafico de red"
+ls
+cat << FIN >> README.md
+Alumno: Candela
+Apellido: Izquierdo
+FIN
+
+rm README.md
+ls
+cat << FIN > README.md
+Alumno: Candela Izquierdo
+Division: 115
+Turno: Mañana
+FIN
+
+ls
+cat README.md 
+git status
+git add .
+git commit -m "ADD: Agregue al archivo README alumno, division y turno."
+history
+history -a $HOME/.bash_history
+cp ~/.bash_history ./Historial_comandos_Tu-Nombre.txt
+git status
+git add .
+git commit -m "ADD: Cree un archivo con el historial de comandos."
+git push+
+git push
+clear
+vagrant halt
+sudo mkdir repogit
+ls
+cd repogit/
+clear
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+git clone git@github.com:TOKYYO9/UTNFRA_SO_1P2C_2024_Turtl.git
+clenar
+clear
+ls
+clear
+ls
+tree
+sudo apt install tree
+clear
+ls
+cd UTN-FRA_SO_Examenes/
+ls
+clear
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+cd ..
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+clear
+ls
+tree
+clear
+ls
+clear
+ls
+cd UTNFRA_SO_1P2C_2024_Turtl/
+ls
+RTA_SCRIPT_Examen_20241005/
+cd RTA_SCRIPT_Examen_20241005/
+ls
+cd ..
+clear
+ls
+cd UTNFRA_SO_1P2C_2024_Turtl/
+LS
+ls
+cd RTA_ARCHIVOS_Examen_20241005/
+ls
+cd ..
+cd RTA_SCRIPT_Examen_20241005/
+ls
+clear
+cd
+exit
+sudo fdisk -l
+exit
+cd repogit/
+sudo fdisk -l
+cd
+pwd
+cd /
+pwd
+cd home/vagrant/
+exit
+clear
+ls -l
+cd repogit/
+ls -l
+clear
+sudo fdisk -l
+clear
+exit
+ls -l
+cd repogit/
+ls -l
+clear
+ls -l
+cd UTNFRA_SO_1P2C_2024_Turtl/
+ls -l
+tree
+cd ..
+clearl
+clear
+ls -l
+rm -r TP
+clear
+ls -l
+cd repogit/
+ls -l
+sudo fdisk -l
+clear
+ls -l
+cd UTNFRA_SO_1P2C_2024_Turtl/
+tree
+git status
+cd ..
+clear
+ls -l
+cd UTNFRA_SO_1P2C_2024_Turtl/
+clear
+ls -l
+clear
+tree
+git status
+git add RTA_SCRIPT_Examen_20241005/
+cd RTA_SCRIPT_Examen_20241005/
+git status
+vim Punto_A.sh
+git status
+git add Punto_A.sh
+git commit -m "ADD: Agrego resolucion Punto_A"
+git status
+git push
+sudo chmod 755 Punto_A.sh
+vim Punto_B.sh
+git status
+sudo chmod 755 Punto_B.sh
+git add .
+git commit -m "ADD: Agrego resolucion Punto_B y permisos Punto_A y B"
+git push
+vim Punto_C.sh
+sudo chmod 755 Punto_C.sh 
+git status
+git add .
+git commit -m "ADD:Agrego resolucion Punto_C"
+git push
+vim Punto_D.sh
+sudo chmod 755 Punto_D.sh
+git status
+git add .
+git commit -m "ADD: Agrego resolucion Punto_D"
+git push
+vim Punto_E.sh
+sudo chmod 755 Punto_E.sh
+git status
+git add .
+git commit -m "ADD: Agrego resolucion Punto_E"
+git push
+vim Punto_F.sh
+sudo chmod 755 Punto_F.sh
+git status
+git add .
+git commit -m "ADD: Agrego resolucion Punto_F"
+git push
+cd ..
+vim README.md 
+git status
+git add .
+git commit -m "ADD: Modifique README.md con mis datos"
+git push
+history -a
+cp ~/.bash_history ~/UTNFRA_SO_1P2C_2024_Turtl/
+history
+ls -l
+cd RTA_SCRIPT_Examen_20241005/
+ls -l
+./Punto_A.sh
+./Punto_B.sh
+./Punto_C.sh
+./Punto_D.sh
+./Punto_E.sh
+./Punto_F.sh
+cd ..
+ls -l
+cd RTA_SCRIPT_Examen_20241005/
+ls -l
+vim Punto_F.sh 
+git status
+git add Punto_F.sh
+git commit -m "ADD: Corrijo Punto_F"
+git push
+./Punto_F.sh
+history
+history -a $HOME/.bash_history
